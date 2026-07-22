@@ -1,0 +1,13 @@
+{
+  "name": "gmail-writer-mcp",
+  "version": "1.0.0",
+  "description": "Gmail write operations MCP server. Bypasses the claude.ai Gmail MCP tool cap that blocks write scopes.",
+  "type": "module",
+  "bin": {
+    "gmail-writer-mcp": "index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "googleapis": "^148.0.0"
+  }
+}
